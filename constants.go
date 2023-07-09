@@ -1,6 +1,8 @@
 package qfoxlibs
 
-import "fmt"
+import (
+	"fmt"
+)
 
 var Q_FOX = '🦊'
 var Qrationale = 'ℚ'
