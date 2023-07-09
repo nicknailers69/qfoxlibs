@@ -6,6 +6,7 @@ require (
 	github.com/stretchr/testify v1.8.4
 	go.uber.org/zap v1.24.0
 	gorgonia.org/gorgonia v0.9.17
+	gorgonia.org/tensor v0.9.17
 )
 
 require (
@@ -30,7 +31,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gorgonia.org/cu v0.9.3 // indirect
 	gorgonia.org/dawson v1.2.0 // indirect
-	gorgonia.org/tensor v0.9.17 // indirect
 	gorgonia.org/vecf32 v0.9.0 // indirect
 	gorgonia.org/vecf64 v0.9.0 // indirect
 )
