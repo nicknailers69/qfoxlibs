@@ -1,4 +1,4 @@
-module qfoxlibs
+module github.com/nicknailers69/qfoxlibs
 
 go 1.20
 
