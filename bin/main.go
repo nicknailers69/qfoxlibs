@@ -7,3 +7,7 @@ func init() {
 	fmt.Print("QFOX INITIALIZING")
 
 }
+
+func main() {
+	fmt.Print("DONE")
+}
