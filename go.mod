@@ -19,6 +19,8 @@ require (
 	github.com/golang/protobuf v1.4.3 // indirect
 	github.com/google/flatbuffers v1.12.0 // indirect
 	github.com/leesper/go_rng v0.0.0-20171009123644-5344a9259b21 // indirect
+	github.com/open-quantum-safe/liboqs-go v0.0.0-20230705192921-cf9c63b76ce6
+	github.com/pelletier/go-toml/v2 v2.0.9
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/xtgo/set v1.0.0 // indirect

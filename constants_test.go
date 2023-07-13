@@ -1,7 +1,10 @@
 package qfoxlibs
 
 import (
+	"fmt"
 	"testing"
+
+	"github.com/open-quantum-safe/liboqs-go/oqs"
 )
 
 /*
@@ -9,5 +12,6 @@ import (
 */
 
 func TestConstants(t *testing.T) {
+	fmt.Println(oqs.EnabledKEMs())
 	TestQFoxTestSuite(t)
 }
