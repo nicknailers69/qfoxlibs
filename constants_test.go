@@ -1,10 +1,10 @@
 package qfoxlibs
 
 import (
-	"fmt"
 	"testing"
 
-	"github.com/open-quantum-safe/liboqs-go/oqs"
+	"github.com/davecgh/go-spew/spew"
+	"github.com/nicknailers69/qfoxlibs/pkg/utils"
 )
 
 /*
@@ -12,6 +12,10 @@ import (
 */
 
 func TestConstants(t *testing.T) {
-	fmt.Println(oqs.EnabledKEMs())
+
+	id, _ := utils.NewID()
+	spew.Dump(id.String())
+	spew.Dump(id.Base64())
+
 	TestQFoxTestSuite(t)
 }
